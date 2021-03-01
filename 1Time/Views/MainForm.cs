@@ -15,13 +15,19 @@ namespace _1Time.Views
     {
         public MainForm()
         {
-            SettingPopup popup = new SettingPopup();
-            popup.Show();
+            InitializeComponent();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             return;
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+            SettingPopup popup = new SettingPopup();
+            popup.Show();
         }
     }
 }

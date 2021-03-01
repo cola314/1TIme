@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\AppSetting.cs" />
+    <Compile Include="Models\SettingVO.cs" />
+    <Compile Include="Util\Singleton.cs" />
     <Compile Include="Views\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,5 +99,6 @@
     <Content Include="Resources\ResetButton.png" />
     <Content Include="Resources\ResetButtonImage.bmp" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
